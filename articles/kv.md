@@ -18,7 +18,7 @@ This guide explains more complex Key/Value operations, such as
   * Filtering
   * Ordering
 
-This guide relies on things that are also mentioned in [Advanced Client Options](/articles/advanced_client_options.html) guide.
+This guide relies on things that are also mentioned in [Advanced Client Options](advanced_client_options.html) guide.
 
 Every example will start with Clojure code followed by corresponding CQL statement.
 
@@ -113,7 +113,7 @@ Following operation will be performed with consistenct level of `:one`:
 
 When performing writes, you can specify Timestamp for the written columns. Even if you do not specify
 Timestamp manually, it is set by Cassandra internally. You can check it by using `cassandra-cli`, which
-is coming together with Cassandra package. You can learn more about this tool in [Troubleshooting](/articles/troubleshooting.html) guide.
+is coming together with Cassandra package. You can learn more about this tool in [Troubleshooting](troubleshooting.html) guide.
 
 ```
 > cassandra-cli
@@ -266,7 +266,7 @@ UPDATE user_counters SET user_count = user_count - 5 WHERE name = 'asd';
 You get good query possibilities in Cassandra, but you have to model your data to be able to
 build flexible queries against your dataset. It is important to pick your parition key wisely,
 since it's the core of all the queries. To learn more about data modelling practices, refer
-to [Data Modelling](/articles/data_modelling.html) guide. There you can learn more about picking
+to [Data Modelling](data_modelling.html) guide. There you can learn more about picking
 a partition key, using compound keys and other useful things.
 
 #### Paginating through results

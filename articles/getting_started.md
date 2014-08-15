@@ -372,7 +372,7 @@ in the rest of the guides.
 ```
 
 You can find an elaborate guide on Prepared Statements in
-[Key Value Operations](http://clojurecassandra.info/articles/kv.html#toc_4) guide.
+[Key Value Operations](kv.html#toc_4) guide.
 
 ## Fetching Values
 
@@ -494,7 +494,7 @@ SELECT * FROM "user_posts" LIMIT 1;
 ## Prepared Statements
 
 You can find an elaborate guide on Prepared Statements in
-[Key Value Operations](http://clojurecassandra.info/articles/kv.html#toc_4) guide.
+[Key Value Operations](kv.html#toc_4) guide.
 
 Prepared statements in Cassaforte are evaluated by query DSL generates
 a query, replacing all the values with `?` signs. For example
@@ -532,8 +532,8 @@ provide.
 
 ## What to read next
 
-  * [Key Cassandra Concepts](/articles/cassandra_concepts.html)
-  * [Key Value Operations](/articles/kv.html)
-  * [Data Modelling](/articles/data_modelling.html)
-  * [Advanced Client Options](/articles/advanced_client_options.html)
-  * [Troubleshooting](/articles/troubleshooting.html)
+  * [Key Cassandra Concepts](cassandra_concepts.html)
+  * [Key Value Operations](kv.html)
+  * [Data Modelling](data_modelling.html)
+  * [Advanced Client Options](advanced_client_options.html)
+  * [Troubleshooting](troubleshooting.html)

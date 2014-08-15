@@ -79,5 +79,5 @@ It is strongly recommended to wrap `DowngradingConsistencyPolicy` policy into `L
 </div>
 
 `FallthroughRetryPolicy` should be used if you want to take care of retries yourself in
-business logic code. Please refer to [Exception Handling](/articles/exception_handling.html) guide
+business logic code. Please refer to [Exception Handling](exception_handling.html) guide
 for more details about what exception types to be aware of.

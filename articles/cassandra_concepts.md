@@ -160,6 +160,6 @@ It provides a way to tune CAP properties however the developer sees fit.
 
 ## What to Read Next
 
-  * [Data Modelling](/articles/modelling_data.html)
-  * [Advanced Client Options](/articles/advanced_client_options.html)
-  * [Troubleshooting](/articles/troubleshooting.html)
+  * [Data Modelling](modelling_data.html)
+  * [Advanced Client Options](advanced_client_options.html)
+  * [Troubleshooting](troubleshooting.html)
